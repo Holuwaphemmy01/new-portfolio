@@ -29,12 +29,15 @@ export function ContactSection() {
             <Mail className="w-5 h-5" />
             jacoboluwafemi72@gmail.com
           </Button>
-          <Button variant="outline" size="lg" className="gap-3 bg-transparent hover-lift magnetic px-8 py-6 text-lg">
-            <a href="www.linkedin.com/in/oluwafemi-victor-holuwaphemmy" target="_blank" rel="noopener noreferrer">
-              <Linkedin className="w-5 h-5" />
-              Connect on LinkedIn
-            </a>
-          </Button>
+          <a
+            href="https://www.linkedin.com/in/oluwafemi-victor-holuwaphemmy"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-3 px-8 py-6 text-lg rounded-md border border-border/20 hover-lift magnetic bg-transparent"
+          >
+            <Linkedin className="w-5 h-5" />
+            Connect on LinkedIn
+          </a>
         </div>
       </div>
     </section>
