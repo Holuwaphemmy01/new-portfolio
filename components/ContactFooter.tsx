@@ -27,11 +27,13 @@ export function ContactSection() {
         <div className="flex flex-col sm:flex-row gap-6 justify-center pt-8">
           <Button size="lg" className="gap-3 hover-lift magnetic px-8 py-6 text-lg">
             <Mail className="w-5 h-5" />
-            hello@example.com
+            jacoboluwafemi72@gmail.com
           </Button>
           <Button variant="outline" size="lg" className="gap-3 bg-transparent hover-lift magnetic px-8 py-6 text-lg">
-            <Linkedin className="w-5 h-5" />
-            Connect on LinkedIn
+            <a href="www.linkedin.com/in/oluwafemi-victor-holuwaphemmy" target="_blank" rel="noopener noreferrer">
+              <Linkedin className="w-5 h-5" />
+              Connect on LinkedIn
+            </a>
           </Button>
         </div>
       </div>
@@ -45,10 +47,7 @@ export function Footer() {
       <div className="max-w-6xl mx-auto">
         <div className="flex flex-col md:flex-row justify-between items-center gap-6">
           <div className="text-center md:text-left">
-            <p className="text-sm text-muted-foreground">© 2024 Software Engineer Portfolio</p>
-            <p className="text-xs text-muted-foreground mt-1">
-              Crafted with Next.js, Tailwind CSS, and attention to detail
-            </p>
+            <p className="text-sm text-muted-foreground">© 2025 Oluwafemi Victor Jacob</p>
           </div>
           <div className="flex gap-4">
             <Button variant="ghost" size="sm" className="hover-lift magnetic">
