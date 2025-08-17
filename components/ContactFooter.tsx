@@ -31,7 +31,7 @@ export function ContactSection() {
           </Button>
           
           <a
-            href="https://www.github.com/oluwafemi-victor-holuwaphemmy"
+            href="https://github.com/Holuwaphemmy01"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-8 py-2 text-lg rounded-md bg-white text-black hover:bg-gray-100 shadow-sm magnetic"
