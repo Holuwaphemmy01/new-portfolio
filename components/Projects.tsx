@@ -15,23 +15,23 @@ const projects = [
 		image: "/MintEasy.png",
 	},
 	{
-		title: "AI Analytics Dashboard",
+		title: "Akinzo Blog",
 		description:
-			"Advanced analytics platform powered by machine learning algorithms. Real-time data processing with interactive visualizations and predictive insights.",
+			"Full-stack blog platform built with the MERN stack. Features AI-powered content generation for automated post creation, ImageKit integration for optimized image storage and delivery, rich text editing, user authentication, and responsive design. Includes post management, tagging system, and analytics dashboard.",
 		tech: ["Python", "TensorFlow", "React", "D3.js"],
-		github: "#",
-		live: "#",
+		github: "https://github.com/Holuwaphemmy01/Akinzo-Blog",
+		live: "https://akinzo-blog.vercel.app/",
 		image: "/ai-analytics-dashboard.png",
 	},
-	{
-		title: "Collaborative Workspace",
-		description:
-			"Real-time collaborative platform with live editing, video conferencing, and project management. Built for distributed teams.",
-		tech: ["Next.js", "Socket.io", "WebRTC", "MongoDB"],
-		github: "#",
-		live: "#",
-		image: "/collaborative-workspace-realtime-editing.png",
-	},
+	// {
+	// 	title: "Collaborative Workspace",
+	// 	description:
+	// 		"Real-time collaborative platform with live editing, video conferencing, and project management. Built for distributed teams.",
+	// 	tech: ["Next.js", "Socket.io", "WebRTC", "MongoDB"],
+	// 	github: "#",
+	// 	live: "#",
+	// 	image: "/collaborative-workspace-realtime-editing.png",
+	// },
 ]
 
 export default function Projects() {
