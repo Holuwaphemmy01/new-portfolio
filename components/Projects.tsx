@@ -6,13 +6,13 @@ import { Button } from "@/components/ui/button"
 
 const projects = [
 	{
-		title: "E-Commerce Platform",
+		title: "MintEasy",
 		description:
-			"Full-stack e-commerce solution with React, Node.js, and PostgreSQL. Features include user authentication, payment processing, and admin dashboard.",
-		tech: ["React", "Node.js", "PostgreSQL", "Stripe"],
-		github: "https://sui-nft-minter-project.vercel.app/",
+			"Mint Easy is a decentralized application designed to empower creators and collectors by enabling seamless creation, and management of non-fungible tokens (NFTs). Built on Sui BlockChain and React.",
+		tech: ["Move", "React"],
+		github: "https://github.com/Holuwaphemmy01/Sui_nft_minter_project",
 		live: "https://sui-nft-minter-project.vercel.app/",
-		image: "/modern-ecommerce-dashboard.png",
+		image: "/MintEasy.png",
 	},
 	{
 		title: "AI Analytics Dashboard",
