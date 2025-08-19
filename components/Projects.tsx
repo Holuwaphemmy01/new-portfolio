@@ -21,7 +21,7 @@ const projects = [
 		tech: ["Python", "TensorFlow", "React", "D3.js"],
 		github: "https://github.com/Holuwaphemmy01/Akinzo-Blog",
 		live: "https://akinzo-blog.vercel.app/",
-		image: "/ai-analytics-dashboard.png",
+		image: "/blog.png",
 	},
 	// {
 	// 	title: "Collaborative Workspace",

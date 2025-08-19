@@ -4,6 +4,7 @@ import { Button } from "@/components/ui/button"
 import { Linkedin, Download } from "lucide-react"
 
 export default function About() {
+  const [hovered, setHovered] = React.useState(false)
   return (
     <section className="px-6 py-32 bg-muted/20">
       <div className="max-w-6xl mx-auto">
@@ -45,10 +46,18 @@ export default function About() {
             </div>
 
             <div className="flex gap-4 pt-4">
-              <Button variant="outline" size="sm" className="gap-2 bg-transparent hover-lift magnetic">
+              <a
+                href="https://www.linkedin.com/in/oluwafemi-victor-holuwaphemmy"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Open LinkedIn profile"
+                onMouseEnter={() => setHovered(true)}
+                onMouseLeave={() => setHovered(false)}
+                className={`inline-flex items-center gap-2 px-3 py-1.5 rounded-md border transition-colors duration-150 text-sm z-50 relative pointer-events-auto ${hovered ? "bg-black text-white" : "bg-transparent text-primary"}`}
+              >
                 <Linkedin className="w-4 h-4" />
-                LinkedIn
-              </Button>
+                <span>LinkedIn</span>
+              </a>
               <Button variant="outline" size="sm" className="gap-2 bg-transparent hover-lift magnetic">
                 <Download className="w-4 h-4" />
                 Resume
